@@ -1,0 +1,49 @@
+.how-section {
+  background: var(--warm-white);
+  padding: 64px 48px;
+  text-align: center;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.step {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  border: 1.5px solid var(--beige);
+}
+
+.step-num {
+  width: 40px;
+  height: 40px;
+  background: var(--orange-pale);
+  color: var(--orange);
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.step-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color: var(--brown);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.step-text {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}

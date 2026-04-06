@@ -1,0 +1,73 @@
+footer {
+  background: var(--brown);
+  color: #fff;
+  padding: 48px 48px 24px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.footer-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.affiliate-notice {
+  font-size: 12px;
+  color: rgba(255,255,255,0.45);
+}
+
+.footer-col h4 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: var(--orange-light);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+}

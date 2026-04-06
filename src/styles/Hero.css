@@ -1,0 +1,230 @@
+.hero-wrapper {
+  background: var(--warm-white);
+  padding: 64px 48px;
+}
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--orange-pale);
+  color: var(--orange);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  line-height: 1.2;
+  color: var(--brown);
+  margin-bottom: 16px;
+}
+
+.hero-left h1 em {
+  font-style: italic;
+  color: var(--orange);
+}
+
+.hero-sub {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 28px;
+  max-width: 460px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.btn-primary {
+  background: var(--orange);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--orange-light);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--brown);
+  border: 1.5px solid var(--beige-dark);
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Visual side */
+.hero-visual {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.hero-card-main {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 24px rgba(92, 61, 30, 0.08);
+  width: 100%;
+  max-width: 320px;
+}
+
+.product-img {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color: var(--brown);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.product-brand {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 14px;
+  color: var(--orange);
+  margin-bottom: 14px;
+}
+
+.stars span {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.price-old {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+
+.score-badge {
+  background: var(--orange);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.hero-card-small {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 20px rgba(92, 61, 30, 0.07);
+  width: 100%;
+  max-width: 320px;
+}
+
+.small-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.mini-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--brown);
+  margin-bottom: 4px;
+}
+
+.mini-bar {
+  background: var(--beige);
+  border-radius: 4px;
+  height: 6px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.mini-fill {
+  background: var(--orange);
+  height: 100%;
+  border-radius: 4px;
+}
+
+.hero-tag {
+  background: var(--green-light);
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 20px;
+}

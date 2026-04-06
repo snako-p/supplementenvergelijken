@@ -1,0 +1,46 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 48px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: var(--brown);
+  margin-bottom: 10px;
+}
+
+.page-sub {
+  font-size: 16px;
+  color: var(--text-muted);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .page-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .page-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    padding: 40px 20px;
+  }
+}

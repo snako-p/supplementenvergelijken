@@ -1,0 +1,17 @@
+.top-products {
+  background: var(--cream);
+  padding: 64px 48px;
+}
+
+.top-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  text-align: left;
+}

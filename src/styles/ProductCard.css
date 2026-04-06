@@ -1,0 +1,130 @@
+.prod-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1.5px solid var(--beige);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.prod-card:hover {
+  box-shadow: 0 8px 32px rgba(92, 61, 30, 0.1);
+  transform: translateY(-3px);
+}
+
+.badge-best {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: var(--orange);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.prod-header {
+  padding: 24px;
+  text-align: center;
+}
+
+.prod-emoji {
+  font-size: 44px;
+  margin-bottom: 8px;
+}
+
+.prod-rank {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--brown-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.prod-body {
+  padding: 20px;
+}
+
+.prod-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: var(--brown);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.prod-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.prod-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.rating-stars {
+  color: var(--orange);
+  font-size: 14px;
+}
+
+.rating-num {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.prod-features {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.feat {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.feat::before {
+  content: '✓';
+  color: var(--green);
+  font-weight: 700;
+}
+
+.prod-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--beige);
+  padding-top: 14px;
+}
+
+.prod-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.prod-btn {
+  background: var(--orange);
+  color: #fff;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.prod-btn:hover {
+  background: var(--orange-light);
+}
