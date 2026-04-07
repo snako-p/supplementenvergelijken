@@ -11,6 +11,7 @@ import ComparisonPage from './pages/ComparisonPage';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 import AffiliateDisclosure from './components/AffiliateDisclosure';
+import BestVitamineDPage from './pages/BestVitamineDPage';
 import './styles/variables.css';
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/privacybeleid" element={<PrivacyPolicy />} />
         <Route path="/algemene-voorwaarden" element={<TermsAndConditions />} />
         <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
+        <Route path="/beste-vitamine-d-supplement-belgie" element={<BestVitamineDPage />} />
       </Routes>
       <Footer />
       <CookieBanner />
