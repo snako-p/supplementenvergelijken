@@ -1,110 +1,6 @@
 import React, { useState } from 'react';
+import { allComparableProducts } from '../data/products';
 import '../styles/ComparisonPage.css';
-
-const allProducts = [
-  {
-    id: 1,
-    emoji: '🌞',
-    name: "Nature's Best D3 5000IU",
-    brand: "Nature's Best",
-    category: 'Vitamine D3',
-    price: 18.95,
-    dosage: '5000 IU per capsule',
-    servings: 90,
-    rating: 4.8,
-    reviews: 312,
-    ingredients: ['Cholecalciferol (D3)', 'Olijfolie', 'Gelatine capsule'],
-    pros: ['Hoge biologische beschikbaarheid', 'Glutenvrij & vegan', 'Gecertificeerde ingrediënten'],
-    cons: ['Hoge dosis, niet voor iedereen'],
-    score: { kwaliteit: 92, prijskwaliteit: 88, ingredienten: 95, veiligheid: 90 },
-    accentColor: 'var(--orange-pale)',
-  },
-  {
-    id: 2,
-    emoji: '🪨',
-    name: 'Vitakruid Magnesium Malaat',
-    brand: 'Vitakruid',
-    category: 'Magnesium',
-    price: 21.50,
-    dosage: '200 mg per tablet',
-    servings: 120,
-    rating: 4.7,
-    reviews: 198,
-    ingredients: ['Magnesiummalaat', 'Rijstmeel', 'HPMC capsule'],
-    pros: ['Snelle opname', 'Ondersteunt spieren & slaap', 'Made in Belgium'],
-    cons: ['Iets duurder per portie'],
-    score: { kwaliteit: 89, prijskwaliteit: 84, ingredienten: 91, veiligheid: 93 },
-    accentColor: '#E8F5EC',
-  },
-  {
-    id: 3,
-    emoji: '🐟',
-    name: 'Nordic Naturals Ultimate Omega',
-    brand: 'Nordic Naturals',
-    category: 'Omega-3',
-    price: 29.95,
-    dosage: '1280 mg per softgel',
-    servings: 60,
-    rating: 4.6,
-    reviews: 145,
-    ingredients: ['Visolie concentrate', 'EPA 650mg', 'DHA 450mg', 'Tocoferol'],
-    pros: ['Gecertificeerde visserij', 'Hoge EPA/DHA verhouding', 'Geen visgeur'],
-    cons: ['Hogere prijs', 'Niet vegan'],
-    score: { kwaliteit: 91, prijskwaliteit: 80, ingredienten: 94, veiligheid: 92 },
-    accentColor: '#EDF2FB',
-  },
-  {
-    id: 4,
-    emoji: '🅱️',
-    name: 'Solgar Methylcobalamine B12',
-    brand: 'Solgar',
-    category: 'Vitamine B12',
-    price: 14.50,
-    dosage: '1000 mcg per tablet',
-    servings: 60,
-    rating: 4.7,
-    reviews: 224,
-    ingredients: ['Methylcobalamine', 'Mannitol', 'Aardbeiensmaak'],
-    pros: ['Actieve vorm methylcobalamine', 'Energie & zenuwstelsel', 'Vegan'],
-    cons: ['Smaak niet voor iedereen'],
-    score: { kwaliteit: 88, prijskwaliteit: 90, ingredienten: 89, veiligheid: 95 },
-    accentColor: '#EDF2FB',
-  },
-  {
-    id: 5,
-    emoji: '🍊',
-    name: 'NOW Foods Vitamine C-1000',
-    brand: 'NOW Foods',
-    category: 'Vitamine C',
-    price: 12.95,
-    dosage: '1000 mg per tablet',
-    servings: 100,
-    rating: 4.6,
-    reviews: 187,
-    ingredients: ['Ascorbinezuur', 'Bioflavonoïden 250mg', 'Cellulose'],
-    pros: ['Beste prijs/portie', 'Met bioflavonoïden', 'Immuunsysteem'],
-    cons: ['Grote tabletten'],
-    score: { kwaliteit: 85, prijskwaliteit: 95, ingredienten: 86, veiligheid: 92 },
-    accentColor: '#FFF8ED',
-  },
-  {
-    id: 6,
-    emoji: '🌿',
-    name: 'Vegetology Opti3 Algenolie',
-    brand: 'Vegetology',
-    category: 'Omega-3 Vegan',
-    price: 34.95,
-    dosage: '500 mg per softgel',
-    servings: 60,
-    rating: 4.7,
-    reviews: 98,
-    ingredients: ['Algenolie', 'EPA 150mg', 'DHA 300mg', 'Zonnebloemolie'],
-    pros: ['100% plantaardig', 'Geen visgeur', 'Duurzaam gewonnen'],
-    cons: ['Lagere EPA verhouding', 'Hogere prijs'],
-    score: { kwaliteit: 90, prijskwaliteit: 78, ingredienten: 96, veiligheid: 94 },
-    accentColor: '#E8F5EC',
-  },
-];
 
 const scoreLabels = { kwaliteit: 'Kwaliteit', prijskwaliteit: 'Prijs/kwaliteit', ingredienten: 'Ingrediënten', veiligheid: 'Veiligheid' };
 
@@ -133,7 +29,7 @@ function ProductSelector({ label, selected, onChange, exclude }) {
       <div className="selector-label">{label}</div>
       <select value={selected ?? ''} onChange={e => onChange(Number(e.target.value))}>
         <option value="" disabled>Kies een supplement...</option>
-        {allProducts.filter(p => p.id !== exclude).map(p => (
+        {allComparableProducts.filter(p => p.id !== exclude).map(p => (
           <option key={p.id} value={p.id}>{p.emoji} {p.name}</option>
         ))}
       </select>
@@ -145,8 +41,8 @@ export default function ComparisonPage() {
   const [idA, setIdA] = useState(1);
   const [idB, setIdB] = useState(3);
 
-  const A = allProducts.find(p => p.id === idA);
-  const B = allProducts.find(p => p.id === idB);
+  const A = allComparableProducts.find(p => p.id === idA);
+  const B = allComparableProducts.find(p => p.id === idB);
 
   const pricePerServing = p => (p.price / p.servings).toFixed(2);
   const totalWinner = p => Object.values(p.score).reduce((a, b) => a + b, 0);
@@ -167,7 +63,6 @@ export default function ComparisonPage() {
 
       {A && B && (
         <>
-          {/* Product headers */}
           <div className="comp-grid">
             <div className="comp-card" style={{ background: A.accentColor }}>
               <div className="comp-emoji">{A.emoji}</div>
@@ -186,7 +81,6 @@ export default function ComparisonPage() {
             </div>
           </div>
 
-          {/* Quick stats */}
           <div className="quick-stats">
             {[
               { label: 'Prijs', a: `€${A.price.toFixed(2).replace('.', ',')}`, b: `€${B.price.toFixed(2).replace('.', ',')}`, winnerFn: () => A.price < B.price ? 'a' : B.price < A.price ? 'b' : 'tie' },
@@ -207,7 +101,6 @@ export default function ComparisonPage() {
             })}
           </div>
 
-          {/* Score bars */}
           <div className="score-section">
             <div className="score-section-title">Scores vergelijking</div>
             {Object.entries(scoreLabels).map(([key, label]) => (
@@ -215,7 +108,6 @@ export default function ComparisonPage() {
             ))}
           </div>
 
-          {/* Ingredients */}
           <div className="comp-grid ingredients-grid">
             <div className="ing-block">
               <div className="ing-title">Ingrediënten</div>
@@ -228,7 +120,6 @@ export default function ComparisonPage() {
             </div>
           </div>
 
-          {/* Pros & cons */}
           <div className="comp-grid">
             <div className="pros-cons">
               <div className="pros">
@@ -253,7 +144,6 @@ export default function ComparisonPage() {
             </div>
           </div>
 
-          {/* CTA */}
           <div className="comp-grid cta-grid">
             <div className="cta-block">
               <button className="prod-btn cta-btn">Bekijk deal {A.emoji} →</button>

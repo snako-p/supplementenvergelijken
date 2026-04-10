@@ -1,6 +1,6 @@
 .search-section {
   background: var(--beige);
-  padding: 48px 48px;
+  padding: 56px 48px;
 }
 
 .search-inner {
@@ -11,9 +11,9 @@
 
 .search-title {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 26px;
   color: var(--brown);
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .search-bar {
@@ -21,40 +21,43 @@
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 12px rgba(92, 61, 30, 0.08);
+  box-shadow: 0 2px 16px rgba(92, 61, 30, 0.09);
   margin-bottom: 16px;
+  border: 1.5px solid var(--beige-dark);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-bar:focus-within {
+  border-color: var(--orange);
+  box-shadow: 0 2px 20px rgba(232, 105, 42, 0.12);
 }
 
 .search-bar input {
   flex: 1;
   border: none;
   outline: none;
-  padding: 14px 20px;
+  padding: 15px 20px;
   font-size: 15px;
   color: var(--text);
   background: transparent;
   font-family: 'DM Sans', sans-serif;
+  min-width: 0;
 }
-
-.search-bar input::placeholder {
-  color: var(--text-muted);
-}
+.search-bar input::placeholder { color: var(--text-muted); }
 
 .search-btn {
   background: var(--orange);
   color: #fff;
   border: none;
-  padding: 14px 24px;
+  padding: 15px 24px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
   font-family: 'DM Sans', sans-serif;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-
-.search-btn:hover {
-  background: var(--orange-light);
-}
+.search-btn:hover { background: var(--orange-light); }
 
 .search-tags {
   display: flex;
@@ -65,17 +68,23 @@
 
 .tag {
   background: #fff;
-  border: 1px solid var(--beige-dark);
+  border: 1.5px solid var(--beige-dark);
   color: var(--text-muted);
-  padding: 6px 14px;
+  padding: 7px 16px;
   border-radius: 20px;
   font-size: 13px;
   cursor: pointer;
   transition: all 0.2s;
+  user-select: none;
 }
-
 .tag:hover {
   background: var(--orange-pale);
   border-color: var(--orange);
   color: var(--orange);
+}
+
+@media (max-width: 600px) {
+  .search-section { padding: 40px 20px; }
+  .search-title { font-size: 22px; }
+  .search-btn { padding: 15px 16px; font-size: 13px; }
 }

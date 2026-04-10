@@ -1,6 +1,6 @@
 .top-products {
   background: var(--cream);
-  padding: 64px 48px;
+  padding: 72px 48px;
 }
 
 .top-inner {
@@ -14,4 +14,14 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   text-align: left;
+}
+
+@media (max-width: 900px) {
+  .top-products { padding: 56px 24px; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+
+@media (max-width: 540px) {
+  .top-products { padding: 44px 20px; }
+  .product-grid { grid-template-columns: 1fr; }
 }

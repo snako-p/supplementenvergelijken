@@ -1,5 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
+
+const categoryLinks = [
+  { label: 'Vitamines', to: '/vitamines' },
+  { label: 'Mineralen', to: '/mineralen' },
+  { label: 'Proteïne', to: '/proteine' },
+  { label: 'Omega-3', to: '/omega-3' },
+];
+
+const infoLinks = [
+  { label: 'Over ons', to: '/over-ons' },
+  { label: 'Contact', to: '/contact' },
+  { label: 'Privacybeleid', to: '/privacybeleid' },
+  { label: 'Affiliate disclosure', to: '/affiliate-disclosure' },
+  { label: 'Algemene voorwaarden', to: '/algemene-voorwaarden' },
+];
 
 export default function Footer() {
   return (
@@ -7,20 +23,27 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-top">
           <div>
-            <div className="footer-logo">supplementenvergelijken.be</div>
-            <p className="footer-desc">Onafhankelijk supplementen vergelijken voor Belgen. Wij verdienen een kleine commissie bij aankoop — dit beïnvloedt onze reviews nooit.</p>
+            <Link to="/" className="footer-logo">supplementenvergelijken.be</Link>
+            <p className="footer-desc">
+              Onafhankelijk supplementen vergelijken voor Belgen. Wij verdienen een kleine
+              commissie bij aankoop — dit beïnvloedt onze reviews nooit.
+            </p>
             <p className="affiliate-notice">⚠️ Affiliate disclosure: sommige links zijn gesponsord.</p>
           </div>
           <div className="footer-col">
             <h4>Categorieën</h4>
             <ul>
-              {['Vitamines','Mineralen','Proteïne','Omega-3'].map(i => <li key={i}><a href="#">{i}</a></li>)}
+              {categoryLinks.map(({ label, to }) => (
+                <li key={to}><Link to={to}>{label}</Link></li>
+              ))}
             </ul>
           </div>
           <div className="footer-col">
             <h4>Over ons</h4>
             <ul>
-              {['Over ons','Blog','Contact','Privacybeleid'].map(i => <li key={i}><a href="#">{i}</a></li>)}
+              {infoLinks.map(({ label, to }) => (
+                <li key={to}><Link to={to}>{label}</Link></li>
+              ))}
             </ul>
           </div>
         </div>
