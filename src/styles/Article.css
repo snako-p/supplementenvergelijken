@@ -1,0 +1,299 @@
+/* ── Gedeelde stijl voor artikelen, koopgidsen en ingredient-pagina's ── */
+
+.article-page { background: var(--cream); }
+
+/* Hero */
+.article-hero {
+  background: var(--warm-white);
+  border-bottom: 1.5px solid var(--beige);
+  padding: 56px 48px 48px;
+  text-align: center;
+}
+.article-hero-inner { max-width: 760px; margin: 0 auto; }
+.article-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: var(--brown);
+  line-height: 1.2;
+  margin: 12px 0 16px;
+}
+.article-hero-sub {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.article-meta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  flex-wrap: wrap;
+}
+.article-meta span { display: flex; align-items: center; gap: 5px; }
+
+/* Content layout */
+.article-body {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 48px 80px;
+}
+
+/* Disclosure */
+.article-disclosure {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--orange-pale);
+  border-left: 4px solid var(--orange);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 36px;
+  font-size: 13px;
+  color: var(--brown);
+  line-height: 1.6;
+}
+.article-disclosure a { color: var(--orange); }
+
+/* Sections */
+.article-body h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: var(--brown);
+  margin: 40px 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid var(--beige);
+}
+.article-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: var(--brown);
+  margin: 28px 0 12px;
+}
+.article-body p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.article-body ul, .article-body ol {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+.article-body li {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+.article-body strong { color: var(--brown); }
+.article-body a { color: var(--orange); text-decoration: underline; }
+
+/* Product highlight card */
+.art-product {
+  background: #fff;
+  border: 1.5px solid var(--beige);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.art-product-left { flex-shrink: 0; text-align: center; }
+.art-product-emoji { font-size: 48px; display: block; margin-bottom: 6px; }
+.art-product-rank {
+  background: var(--orange);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.art-product-info { flex: 1; }
+.art-product-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: var(--brown);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.art-product-brand { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+.art-product-stars { color: var(--orange); font-size: 14px; margin-bottom: 10px; }
+.art-product-pros { list-style: none; padding: 0; margin: 0 0 14px; }
+.art-product-pros li {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  gap: 7px;
+  margin-bottom: 4px;
+}
+.art-product-pros li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+.art-product-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--beige);
+  padding-top: 14px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.art-product-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--brown);
+}
+.art-product-btn {
+  background: var(--orange);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+.art-product-btn:hover { background: var(--orange-light); }
+
+/* Verdict box */
+.verdict-box {
+  background: var(--green-light);
+  border-left: 4px solid var(--green);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 28px 0;
+}
+.verdict-box strong { color: var(--green); display: block; margin-bottom: 6px; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+.verdict-box p { color: var(--brown); font-size: 15px; line-height: 1.7; margin: 0; }
+
+/* Info box */
+.info-box {
+  background: #EDF2FB;
+  border-left: 4px solid #4A6FA5;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin: 24px 0;
+}
+.info-box p { color: #2C3E6B; margin: 0; font-size: 14px; line-height: 1.7; }
+
+/* Comparison table inside article */
+.art-table-wrap { overflow-x: auto; margin: 24px 0; }
+.art-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.art-table th {
+  background: var(--beige);
+  padding: 11px 14px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.art-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--beige);
+  color: var(--text);
+  vertical-align: middle;
+}
+.art-table tbody tr:hover { background: var(--warm-white); }
+.art-table .best-row { background: #fffaf6; }
+.art-table .buy-btn {
+  background: var(--orange);
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.art-table .buy-btn:hover { background: var(--orange-light); }
+.art-table .score-pill {
+  background: var(--orange-pale);
+  color: var(--orange);
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/* Internal link block */
+.related-links {
+  background: #fff;
+  border: 1.5px solid var(--beige);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin: 36px 0;
+}
+.related-links h4 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.related-links ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.related-links li a {
+  font-size: 14px;
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 500;
+}
+.related-links li a:hover { text-decoration: underline; }
+
+/* FAQ */
+.art-faq { margin: 12px 0; }
+.art-faq-item {
+  border: 1.5px solid var(--beige);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.art-faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--brown);
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  gap: 12px;
+}
+.art-faq-q:hover { background: var(--warm-white); }
+.art-faq-icon { color: var(--orange); font-size: 20px; flex-shrink: 0; }
+.art-faq-a { padding: 0 20px 16px; font-size: 14px; color: var(--text-muted); line-height: 1.7; background: #fff; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .article-hero { padding: 40px 24px 36px; }
+  .article-hero h1 { font-size: 30px; }
+  .article-body { padding: 32px 24px 60px; }
+  .art-product { flex-direction: column; gap: 16px; }
+  .art-product-left { display: flex; align-items: center; gap: 12px; }
+}
+@media (max-width: 480px) {
+  .article-hero { padding: 32px 20px; }
+  .article-hero h1 { font-size: 26px; }
+  .article-body { padding: 24px 20px 48px; }
+  .article-body h2 { font-size: 22px; }
+}

@@ -18,6 +18,15 @@ const routes = [
   '/privacybeleid',
   '/algemene-voorwaarden',
   '/affiliate-disclosure',
+  '/artikelen/top-5-magnesium-supplementen-belgie',
+  '/artikelen/whey-vs-plantaardig-eiwit',
+  '/artikelen/beste-vitamine-d-supplement-vergeleken',
+  '/koopgidsen/creatine-koopgids',
+  '/koopgidsen/hoe-kies-je-het-juiste-supplement',
+  '/koopgidsen/supplementen-voor-beginners',
+  '/ingredienten/magnesiumcitraat-vs-magnesiumoxide',
+  '/ingredienten/vitamine-b12-vormen',
+  '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat',
 ];
 
 const today = new Date().toISOString().split('T')[0];
@@ -37,6 +46,15 @@ const priorityMap = {
   '/privacybeleid': '0.3',
   '/algemene-voorwaarden': '0.3',
   '/affiliate-disclosure': '0.3',
+  '/artikelen/top-5-magnesium-supplementen-belgie': '0.8',
+  '/artikelen/whey-vs-plantaardig-eiwit': '0.8',
+  '/artikelen/beste-vitamine-d-supplement-vergeleken': '0.8',
+  '/koopgidsen/creatine-koopgids': '0.7',
+  '/koopgidsen/hoe-kies-je-het-juiste-supplement': '0.7',
+  '/koopgidsen/supplementen-voor-beginners': '0.7',
+  '/ingredienten/magnesiumcitraat-vs-magnesiumoxide': '0.7',
+  '/ingredienten/vitamine-b12-vormen': '0.7',
+  '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat': '0.7',
 };
 
 const changefreqMap = {
@@ -54,6 +72,15 @@ const changefreqMap = {
   '/privacybeleid': 'yearly',
   '/algemene-voorwaarden': 'yearly',
   '/affiliate-disclosure': 'yearly',
+  '/artikelen/top-5-magnesium-supplementen-belgie': 'monthly',
+  '/artikelen/whey-vs-plantaardig-eiwit': 'monthly',
+  '/artikelen/beste-vitamine-d-supplement-vergeleken': 'monthly',
+  '/koopgidsen/creatine-koopgids': 'monthly',
+  '/koopgidsen/hoe-kies-je-het-juiste-supplement': 'monthly',
+  '/koopgidsen/supplementen-voor-beginners': 'monthly',
+  '/ingredienten/magnesiumcitraat-vs-magnesiumoxide': 'monthly',
+  '/ingredienten/vitamine-b12-vormen': 'monthly',
+  '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat': 'monthly',
 };
 
 const urlEntries = routes.map(route => `
