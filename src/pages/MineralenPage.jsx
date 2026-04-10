@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import { magnesium } from '../data/products';
 import '../styles/Page.css';
@@ -25,6 +26,11 @@ const products = [...extra, ...magnesium.slice(0, 2)];
 export default function MineralenPage() {
   return (
     <div className="page">
+      <SEO
+        title="Beste Mineralen Supplementen België 2025"
+        description="Vergelijk de beste mineralen supplementen in België: zink, ijzer, magnesium en meer. Onafhankelijke reviews op kwaliteit, opname en prijs."
+        canonical="/mineralen"
+      />
       <div className="page-header">
         <div className="section-label">Categorie</div>
         <h1 className="page-title">Mineralen</h1>

@@ -16,6 +16,7 @@ import TermsAndConditions from './components/TermsAndConditions';
 import AffiliateDisclosure from './components/AffiliateDisclosure';
 import OverOnsPage from './pages/OverOnsPage';
 import ContactPage from './pages/ContactPage';
+import AdverterenPage from './pages/AdverterenPage';
 import './styles/variables.css';
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
         <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
         <Route path="/over-ons" element={<OverOnsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/adverteren" element={<AdverterenPage />} />
       </Routes>
       <Footer />
       <CookieBanner />

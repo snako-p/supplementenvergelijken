@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SEO from '../components/SEO';
 import '../styles/Legal.css';
 import '../styles/ContactPage.css';
 
@@ -35,6 +36,11 @@ export default function ContactPage() {
 
   return (
     <div className="legal-page">
+      <SEO
+        title="Contact — SupplementenVergelijken.be"
+        description="Neem contact op met SupplementenVergelijken.be. Vragen over supplementen, samenwerkingen of onze reviews? We reageren binnen 1-2 werkdagen."
+        canonical="/contact"
+      />
       <div className="legal-inner">
         <h1>Contact</h1>
         <p className="legal-date">We reageren doorgaans binnen 1-2 werkdagen.</p>

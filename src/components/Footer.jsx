@@ -12,6 +12,7 @@ const categoryLinks = [
 const infoLinks = [
   { label: 'Over ons', to: '/over-ons' },
   { label: 'Contact', to: '/contact' },
+  { label: 'Adverteren', to: '/adverteren' },
   { label: 'Privacybeleid', to: '/privacybeleid' },
   { label: 'Affiliate disclosure', to: '/affiliate-disclosure' },
   { label: 'Algemene voorwaarden', to: '/algemene-voorwaarden' },

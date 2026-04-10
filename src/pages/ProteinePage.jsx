@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import '../styles/Page.css';
 
@@ -36,6 +37,11 @@ const products = [
 export default function ProteinePage() {
   return (
     <div className="page">
+      <SEO
+        title="Beste Proteïne Supplement België 2025"
+        description="Vergelijk de beste eiwitpoeders in België: whey, vegan proteïne en caseine. Onafhankelijke reviews op eiwit per portie, prijs en kwaliteit."
+        canonical="/proteine"
+      />
       <div className="page-header">
         <div className="section-label">Categorie</div>
         <h1 className="page-title">Proteïne</h1>

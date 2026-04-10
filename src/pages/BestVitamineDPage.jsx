@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SEO from '../components/SEO';
 import '../styles/BestVitamineDPage.css';
 
 const products = [
@@ -98,8 +99,25 @@ export default function BestVitamineDPage() {
     { q: 'Kan ik te veel vitamine D innemen?', a: 'Ja, vitamine D-toxiciteit is mogelijk bij langdurig gebruik van zeer hoge doses (>10.000 IU/dag). Blijf bij de aanbevolen dosering en laat je waarden jaarlijks controleren via een bloedtest.' },
   ];
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+
   return (
     <div className="vd-page">
+      <SEO
+        title="Beste Vitamine D Supplement België 2025 — Vergelijking & Reviews"
+        description="Welk vitamine D supplement is het beste in België? Wij testten 18 producten. Bekijk onze vergelijkingstabel, scores en eerlijke reviews. Bijgewerkt april 2025."
+        canonical="/beste-vitamine-d-supplement-belgie"
+        type="article"
+        schema={faqSchema}
+      />
 
       {/* Hero */}
       <div className="vd-hero">

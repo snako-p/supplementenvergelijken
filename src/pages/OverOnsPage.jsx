@@ -1,9 +1,15 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import '../styles/Legal.css';
 
 export default function OverOnsPage() {
   return (
     <div className="legal-page">
+      <SEO
+        title="Over Ons — Onafhankelijk Supplementen Vergelijken"
+        description="Wie zijn wij? SupplementenVergelijken.be is een onafhankelijke vergelijkingssite voor supplementen in België. Lees meer over onze missie en werkmethode."
+        canonical="/over-ons"
+      />
       <div className="legal-inner">
         <h1>Over ons</h1>
         <p className="legal-date">SupplementenVergelijken.be — opgericht in 2024</p>
