@@ -27,6 +27,8 @@ const routes = [
   '/ingredienten/magnesiumcitraat-vs-magnesiumoxide',
   '/ingredienten/vitamine-b12-vormen',
   '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat',
+  '/supplement-quiz',
+  '/vergelijkingstabel',
 ];
 
 const today = new Date().toISOString().split('T')[0];
@@ -55,6 +57,8 @@ const priorityMap = {
   '/ingredienten/magnesiumcitraat-vs-magnesiumoxide': '0.7',
   '/ingredienten/vitamine-b12-vormen': '0.7',
   '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat': '0.7',
+  '/supplement-quiz': '0.8',
+  '/vergelijkingstabel': '0.8',
 };
 
 const changefreqMap = {
@@ -81,6 +85,8 @@ const changefreqMap = {
   '/ingredienten/magnesiumcitraat-vs-magnesiumoxide': 'monthly',
   '/ingredienten/vitamine-b12-vormen': 'monthly',
   '/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat': 'monthly',
+  '/supplement-quiz': 'monthly',
+  '/vergelijkingstabel': 'weekly',
 };
 
 const urlEntries = routes.map(route => `

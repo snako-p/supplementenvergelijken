@@ -26,6 +26,8 @@ import BeginnersGidsPage from './pages/guides/BeginnersGidsPage';
 import MagnesiumcitraatVsOxidePage from './pages/ingredients/MagnesiumcitraatVsOxidePage';
 import VitamineB12VormenPage from './pages/ingredients/VitamineB12VormenPage';
 import WheyVormenPage from './pages/ingredients/WheyVormenPage';
+import SupplementQuizPage from './pages/SupplementQuizPage';
+import FilterTablePage from './pages/FilterTablePage';
 import './styles/variables.css';
 
 export default function App() {
@@ -56,6 +58,8 @@ export default function App() {
         <Route path="/ingredienten/magnesiumcitraat-vs-magnesiumoxide" element={<MagnesiumcitraatVsOxidePage />} />
         <Route path="/ingredienten/vitamine-b12-vormen" element={<VitamineB12VormenPage />} />
         <Route path="/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat" element={<WheyVormenPage />} />
+        <Route path="/supplement-quiz" element={<SupplementQuizPage />} />
+        <Route path="/vergelijkingstabel" element={<FilterTablePage />} />
       </Routes>
       <Footer />
       <CookieBanner />
