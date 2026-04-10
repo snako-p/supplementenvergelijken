@@ -38,9 +38,8 @@ export default function AffiliateDisclosure() {
         <section>
           <h2>Welke netwerken gebruiken we?</h2>
           <ul>
-            <li><strong>Awin</strong> — Bol.com, Vitakruid, Holland & Barrett</li>
-            <li><strong>Daisycon</strong> — Belgische en Nederlandse merken</li>
-            <li><strong>MyProtein</strong> — sportvoeding en proteïne</li>
+            <li><strong>Awin</strong></li>
+            <li><strong>Daisycon</strong></li>
           </ul>
         </section>
 
