@@ -32,6 +32,7 @@
   box-shadow: 0 0 0 3px rgba(232,105,42,0.1);
 }
 .form-group textarea { resize: vertical; min-height: 140px; }
+.form-char-count { display: block; text-align: right; font-size: 11px; color: var(--text-muted); margin-top: 4px; }
 
 .form-error {
   background: #fdf0ee;

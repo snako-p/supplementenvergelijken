@@ -4,8 +4,8 @@ import '../styles/Legal.css';
 import '../styles/ContactPage.css';
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ naam: '', email: '', bericht: '' });
-  const [status, setStatus] = useState(null); // null | 'loading' | 'success' | 'error'
+  const [form, setForm] = useState({ naam: '', email: '', bericht: '', website: '' });
+  const [status, setStatus] = useState(null);
   const [error, setError] = useState('');
 
   const handleChange = e => setForm(f => ({ ...f, [e.target.name]: e.target.value }));
@@ -14,11 +14,23 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus('loading');
     setError('');
+
+    // Client-side honeypot check
+    if (form.website) {
+      setStatus('success');
+      return;
+    }
+
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          naam: form.naam,
+          email: form.email,
+          bericht: form.bericht,
+          website: form.website,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -26,7 +38,7 @@ export default function ContactPage() {
         setStatus('error');
       } else {
         setStatus('success');
-        setForm({ naam: '', email: '', bericht: '' });
+        setForm({ naam: '', email: '', bericht: '', website: '' });
       }
     } catch {
       setError('Verbindingsfout. Probeer het opnieuw.');
@@ -53,6 +65,20 @@ export default function ContactPage() {
           </div>
         ) : (
           <form className="contact-form" onSubmit={handleSubmit} noValidate>
+            {/* Honeypot — hidden from users, bots fill this in */}
+            <div style={{ display: 'none' }} aria-hidden="true">
+              <label htmlFor="website">Website (laat leeg)</label>
+              <input
+                id="website"
+                name="website"
+                type="text"
+                value={form.website}
+                onChange={handleChange}
+                tabIndex={-1}
+                autoComplete="off"
+              />
+            </div>
+
             <div className="form-group">
               <label htmlFor="naam">Naam</label>
               <input
@@ -62,6 +88,8 @@ export default function ContactPage() {
                 placeholder="Jouw naam"
                 value={form.naam}
                 onChange={handleChange}
+                maxLength={100}
+                autoComplete="name"
                 required
               />
             </div>
@@ -74,6 +102,8 @@ export default function ContactPage() {
                 placeholder="jouw@email.be"
                 value={form.email}
                 onChange={handleChange}
+                maxLength={254}
+                autoComplete="email"
                 required
               />
             </div>
@@ -86,10 +116,13 @@ export default function ContactPage() {
                 value={form.bericht}
                 onChange={handleChange}
                 rows={6}
+                maxLength={2000}
+                autoComplete="off"
                 required
               />
+              <small className="form-char-count">{form.bericht.length}/2000</small>
             </div>
-            {error && <div className="form-error">{error}</div>}
+            {error && <div className="form-error" role="alert">{error}</div>}
             <button type="submit" className="form-submit" disabled={status === 'loading'}>
               {status === 'loading' ? 'Verzenden...' : 'Stuur bericht →'}
             </button>
