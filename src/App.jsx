@@ -29,6 +29,7 @@ import WheyVormenPage from './pages/ingredients/WheyVormenPage';
 import SupplementQuizPage from './pages/SupplementQuizPage';
 import FilterTablePage from './pages/FilterTablePage';
 import ProductsPage from './pages/ProductsPage';
+import CategoriesPage from './pages/CategoriesPage';
 import EnergiePage from './pages/EnergiePage';
 import HersenPage from './pages/HersenPage';
 import StressSlaapPage from './pages/StressSlaapPage';
@@ -66,6 +67,7 @@ export default function App() {
         <Route path="/supplement-quiz" element={<SupplementQuizPage />} />
         <Route path="/vergelijkingstabel" element={<FilterTablePage />} />
         <Route path="/producten" element={<ProductsPage />} />
+        <Route path="/categorieen" element={<CategoriesPage />} />
         <Route path="/energie" element={<EnergiePage />} />
         <Route path="/hersenen" element={<HersenPage />} />
         <Route path="/stress-slaap" element={<StressSlaapPage />} />

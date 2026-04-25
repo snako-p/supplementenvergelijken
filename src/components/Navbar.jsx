@@ -12,6 +12,7 @@ const categories = [
   { label: 'Hersenen & Focus', to: '/hersenen' },
   { label: 'Stress & Slaap', to: '/stress-slaap' },
   { label: 'Huid & Haar', to: '/huid-haar' },
+  { label: 'Alle categorieën', to: '/categorieen' },
 ];
 
 export default function Navbar() {
