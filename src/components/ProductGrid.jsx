@@ -5,6 +5,8 @@ import '../styles/ProductGrid.css';
 const CATEGORIES = [
   'Alle',
   'Vitamines',
+  'Magnesium',
+  'Mineralen',
   'Omega-3',
   'Proteïne',
   'Sport',
@@ -16,6 +18,8 @@ const CATEGORIES = [
 
 const ACCENT_COLORS = {
   Vitamines: 'var(--orange-pale)',
+  Magnesium: '#E8F5EC',
+  Mineralen: '#EDF2FB',
   'Omega-3': '#EDF2FB',
   Proteïne: '#E8F5EC',
   Sport: '#E8F5EC',

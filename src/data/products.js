@@ -380,6 +380,18 @@ export const products = [
   { id: 11, naam: "Omega-3 Visolie", merk: "Holland & Barrett", categorie: "Omega-3", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Essentiële vetzuren voor hart en hersenen" },
   { id: 12, naam: "Ashwagandha", merk: "Holland & Barrett", categorie: "Stress & Slaap", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Adaptogeen kruid voor stressvermindering" },
   { id: 13, naam: "Collageen Poeder", merk: "Holland & Barrett", categorie: "Huid & Haar", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Ondersteunt huid, haar en gewrichten" },
+
+  // Magnesium — populairste producten
+  { id: 14, naam: "Magnesium Malaat 200mg", merk: "Vitakruid", categorie: "Magnesium", netwerk: "Daisycon", url: "https://www.vitakruid.nl/magnesium-malaat", beschrijving: "Snelle opname, ondersteunt spieren en slaap. Made in Belgium, 120 tabletten" },
+  { id: 15, naam: "Magnesium Citraat Poeder", merk: "Natural Calm", categorie: "Magnesium", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/", beschrijving: "Oplosbaar poeder voor snelle opname, rustgevend effect voor de avond" },
+  { id: 16, naam: "Magnesium Bisglycinaat 120mg", merk: "Pure Encapsulations", categorie: "Magnesium", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/", beschrijving: "Ultra-pure formule, beste tolerantie, geen laxerend effect, 90 capsules" },
+  { id: 17, naam: "Magnesium 375mg", merk: "Holland & Barrett", categorie: "Magnesium", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/", beschrijving: "100% dagelijkse aanbevolen hoeveelheid per tablet, 100 tabletten" },
+
+  // Mineralen — populairste producten
+  { id: 18, naam: "Zink Bisglycinaat 15mg", merk: "Vitakruid", categorie: "Mineralen", netwerk: "Daisycon", url: "https://www.vitakruid.nl/zink", beschrijving: "Hoogwaardige chelaatvorm voor maximale opname, ondersteunt immuunsysteem en huid" },
+  { id: 19, naam: "Gentle Iron 25mg", merk: "Solgar", categorie: "Mineralen", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/ijzer/", beschrijving: "Gentle chelated ijzer, geen constipatie, geschikt voor vegetariërs, 90 capsules" },
+  { id: 20, naam: "Calcium + Magnesium", merk: "Holland & Barrett", categorie: "Mineralen", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/calcium/", beschrijving: "Sterke combinatie voor botten en spieren, 250mg calcium + 125mg magnesium per tablet" },
+  { id: 21, naam: "Selenium 200mcg", merk: "Vitakruid", categorie: "Mineralen", netwerk: "Daisycon", url: "https://www.vitakruid.nl/selenium", beschrijving: "Antioxidant mineraal voor schildklier, immuunsysteem en haargezondheid, 60 capsules" },
 ];
 
 export const allComparableProducts = [

@@ -14,9 +14,12 @@ export default function MineralenPage() {
       <div className="page-header">
         <div className="section-label">Categorie</div>
         <h1 className="page-title">Mineralen</h1>
-        <p className="page-sub">Mineralen producten worden binnenkort toegevoegd. Bekijk ondertussen ons volledige aanbod.</p>
+        <p className="page-sub">Zink, ijzer, calcium en selenium — vergelijk de beste mineralen-supplementen voor Belgen.</p>
       </div>
-      <ProductGrid defaultCategorie="Alle" />
+      <ProductGrid
+        categorieën={['Mineralen']}
+        defaultCategorie="Alle"
+      />
     </div>
   );
 }

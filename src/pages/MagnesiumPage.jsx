@@ -23,9 +23,12 @@ export default function MagnesiumPage() {
       <div className="page-header">
         <div className="section-label">Categorie</div>
         <h1 className="page-title">Magnesium</h1>
-        <p className="page-sub">Magnesium producten worden binnenkort toegevoegd. Bekijk ondertussen ons volledige aanbod.</p>
+        <p className="page-sub">Welke magnesiumvorm past het best bij jouw doel? Wij vergelijken het voor jou.</p>
       </div>
-      <ProductGrid defaultCategorie="Alle" />
+      <ProductGrid
+        categorieën={['Magnesium']}
+        defaultCategorie="Alle"
+      />
     </div>
   );
 }
