@@ -3,17 +3,8 @@ import { products } from '../data/products';
 import '../styles/ProductGrid.css';
 
 const CATEGORIES = [
-  'Alle',
-  'Vitamines',
-  'Magnesium',
-  'Mineralen',
-  'Omega-3',
-  'Proteïne',
-  'Sport',
-  'Hersenen',
-  'Stress & Slaap',
-  'Huid & Haar',
-  'Energie',
+  'Alle', 'Vitamines', 'Magnesium', 'Mineralen', 'Omega-3',
+  'Proteïne', 'Sport', 'Hersenen', 'Stress & Slaap', 'Huid & Haar', 'Energie',
 ];
 
 const ACCENT_COLORS = {
@@ -29,20 +20,18 @@ const ACCENT_COLORS = {
   Energie: 'var(--orange-pale)',
 };
 
+const EMOJI = {
+  Vitamines: '🌞', Magnesium: '🪨', Mineralen: '⚡', 'Omega-3': '🐟',
+  Proteïne: '🥛', Sport: '💪', Hersenen: '🧠', 'Stress & Slaap': '🌿',
+  'Huid & Haar': '✨', Energie: '⚡',
+};
+
 export default function ProductGrid({ title, subtitle, defaultCategorie = 'Alle', categorieën }) {
   const [activeCategory, setActiveCategory] = useState(defaultCategorie);
 
-  const visibleCategories = categorieën
-    ? ['Alle', ...categorieën]
-    : CATEGORIES;
-
-  const pool = categorieën
-    ? products.filter(p => categorieën.includes(p.categorie))
-    : products;
-
-  const filtered = activeCategory === 'Alle'
-    ? pool
-    : pool.filter(p => p.categorie === activeCategory);
+  const visibleCategories = categorieën ? ['Alle', ...categorieën] : CATEGORIES;
+  const pool = categorieën ? products.filter(p => categorieën.includes(p.categorie)) : products;
+  const filtered = activeCategory === 'Alle' ? pool : pool.filter(p => p.categorie === activeCategory);
 
   return (
     <section className="pg-section">
@@ -73,16 +62,30 @@ export default function ProductGrid({ title, subtitle, defaultCategorie = 'Alle'
         {filtered.map(product => (
           <article key={product.id} className="pg-card">
             <div
-              className="pg-card-accent"
+              className="pg-card-img-wrap"
               style={{ background: ACCENT_COLORS[product.categorie] || 'var(--orange-pale)' }}
-            />
+            >
+              {product.afbeelding ? (
+                <img
+                  src={product.afbeelding}
+                  alt={product.naam}
+                  className="pg-card-img"
+                  loading="lazy"
+                />
+              ) : (
+                <span className="pg-card-emoji">{EMOJI[product.categorie] || '💊'}</span>
+              )}
+            </div>
             <div className="pg-card-body">
               <span className="pg-cat-tag">{product.categorie}</span>
               <h3 className="pg-card-naam">{product.naam}</h3>
               <div className="pg-card-merk">{product.merk}</div>
               <p className="pg-card-desc">{product.beschrijving}</p>
               <div className="pg-card-footer">
-                <span className="pg-network-tag">{product.netwerk}</span>
+                <div className="pg-price-row">
+                  <span className="pg-prijs">{product.prijs}</span>
+                  <span className="pg-network-tag">{product.netwerk}</span>
+                </div>
                 <a
                   href={product.url}
                   className="pg-offer-btn"
