@@ -13,7 +13,7 @@ const schema = {
   author: { '@type': 'Organization', name: 'SupplementenVergelijken.be' },
 };
 
-const CATEGORIES = ['Alle categorieën', 'Vitamines', 'Magnesium', 'Mineralen', 'Omega-3', 'Proteïne', 'Sport', 'Hersenen', 'Stress & Slaap', 'Huid & Haar', 'Energie'];
+const CATEGORIES = ['Alle categorieën', 'Vitamines', 'Magnesium', 'Mineralen', 'Omega-3', 'Proteïne', 'Sport', 'Hersenen', 'Stress & Slaap', 'Huid & Haar', 'Energie', 'Antioxidanten'];
 
 export default function FilterTablePage() {
   const [category, setCategory] = useState('Alle categorieën');

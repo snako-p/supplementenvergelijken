@@ -4,7 +4,7 @@ import '../styles/ProductGrid.css';
 
 const CATEGORIES = [
   'Alle', 'Vitamines', 'Magnesium', 'Mineralen', 'Omega-3',
-  'Proteïne', 'Sport', 'Hersenen', 'Stress & Slaap', 'Huid & Haar', 'Energie',
+  'Proteïne', 'Sport', 'Hersenen', 'Stress & Slaap', 'Huid & Haar', 'Energie', 'Antioxidanten',
 ];
 
 const ACCENT_COLORS = {
@@ -18,12 +18,13 @@ const ACCENT_COLORS = {
   'Stress & Slaap': '#E8F5EC',
   'Huid & Haar': 'var(--orange-pale)',
   Energie: 'var(--orange-pale)',
+  Antioxidanten: '#FFF3E0',
 };
 
 const EMOJI = {
   Vitamines: '🌞', Magnesium: '🪨', Mineralen: '⚡', 'Omega-3': '🐟',
   Proteïne: '🥛', Sport: '💪', Hersenen: '🧠', 'Stress & Slaap': '🌿',
-  'Huid & Haar': '✨', Energie: '⚡',
+  'Huid & Haar': '✨', Energie: '⚡', Antioxidanten: '🌿',
 };
 
 export default function ProductGrid({ title, subtitle, defaultCategorie = 'Alle', categorieën }) {

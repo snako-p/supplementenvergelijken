@@ -560,6 +560,17 @@ export const products = [
     voordelen: ["Selenomethioninvorm = beste biologische beschikbaarheid", "365 capsules — volledig jaarvoorraad", "Ondersteunt schildklier en immuunsysteem", "Bevorderlijk voor haar en nagels"],
     nadelen: ["Niet overdoseren (max. 400mcg/dag totaal)", "Effect pas zichtbaar na langdurig gebruik"],
   },
+
+  // EXVital — Antioxidanten
+  {
+    id: 22, naam: "Curcuma + Piperine 90 capsules", merk: "EXVital", categorie: "Antioxidanten", netwerk: "Daisycon",
+    url: "https://glp8.net/c/?si=20887&li=1889501&wi=419831&ws=&dl=nahrungsergaenzungsmittel%2Fgesundheit%2F227%2Fcurcuma-piperin-curcumin-hochdosiert-von-exvital-90-kapseln",
+    afbeelding: null,
+    beschrijving: "480mg curcumapoeder + 9,5mg piperine per capsule — hoge biobeschikbaarheid. 90 vegan capsules, biologisch, Made in Germany.",
+    prijs: "€15,95", dosering: "1 capsule per dag, 90 capsules (3 maanden)",
+    voordelen: ["Piperine verhoogt opname van curcumine tot 2000%", "480mg curcumapoeder per capsule — hooggedoseerd", "Biologisch, vrij van pesticiden, 100% vegan", "90 capsules = 3 maanden voorraad"],
+    nadelen: ["Niet combineren met bloedverdunners zonder arts te raadplegen", "Effect pas merkbaar na weken gebruik"],
+  },
 ];
 
 export const allComparableProducts = [
