@@ -365,7 +365,7 @@ export const products = [
   // BioProphyl (Awin)
   {
     id: 1, naam: "Vitamine D3 Druppels 1000 I.E.", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin",
-    url: "https://www.bioprophyl.be/vitamin-d3-k2-vorteilspaket.html",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.be%2Fvitamin-d3-k2-vorteilspaket.html",
     beschrijving: "Natuurlijke vitamine D3 in olijfolie, 750 druppels per fles",
     prijs: "€19,95", dosering: "2 druppels per dag (1000 IE)",
     voordelen: ["Vloeibaar — makkelijk te doseren", "750 druppels per fles (ruim aanbod)", "In olijfolie voor betere opname", "Geschikt voor kinderen en volwassenen"],
@@ -373,7 +373,7 @@ export const products = [
   },
   {
     id: 2, naam: "Vitamine D3 + K2 Combinatie", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin",
-    url: "https://www.bioprophyl.be",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.be",
     beschrijving: "D3 en K2 samen voor botten en immuunsysteem",
     prijs: "€24,95", dosering: "1 capsule per dag",
     voordelen: ["D3 en K2 synergetisch gecombineerd", "Ondersteunt botten én immuunsysteem", "Handige capsule, geen doseren nodig"],
@@ -381,7 +381,7 @@ export const products = [
   },
   {
     id: 3, naam: "Algenolie Vegan Omega-3", merk: "BioProphyl", categorie: "Omega-3", netwerk: "Awin",
-    url: "https://www.bioprophyl.de/nl/algenolie-vegan-omega-3-rijk-aan-epa-en-dha-60-capsules",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.de%2Fnl%2Falgenolie-vegan-omega-3-rijk-aan-epa-en-dha-60-capsules",
     beschrijving: "Plantaardige omega-3 met EPA & DHA, 60 capsules",
     prijs: "€29,95", dosering: "2 capsules per dag",
     voordelen: ["100% plantaardig en vegan", "EPA & DHA rechtstreeks uit algen", "Geen visgeur of nasmaak", "Duurzaam geproduceerd"],
@@ -389,7 +389,7 @@ export const products = [
   },
   {
     id: 4, naam: "Krillolie Omega-3", merk: "BioProphyl", categorie: "Omega-3", netwerk: "Awin",
-    url: "https://www.bioprophyl.de/nl/omega-3-epa-dha/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.de%2Fnl%2Fomega-3-epa-dha%2F",
     beschrijving: "Hoge biobeschikbaarheid dankzij fosfolipiden",
     prijs: "€34,95", dosering: "2 capsules per dag",
     voordelen: ["Fosfolipidenvorm = hogere biobeschikbaarheid", "Bevat astaxanthine (krachtig antioxidant)", "Kleinere capsules dan standaard visolie"],
@@ -397,7 +397,7 @@ export const products = [
   },
   {
     id: 5, naam: "Co-enzym Q10 100 Plus", merk: "BioProphyl", categorie: "Energie", netwerk: "Awin",
-    url: "https://www.bioprophyl.de/nl/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.de%2Fnl%2F",
     beschrijving: "Ondersteunt energieproductie in de cellen",
     prijs: "€27,95", dosering: "1 capsule per dag (100mg)",
     voordelen: ["Ondersteunt mitochondriale energieproductie", "Antioxidant bescherming voor cellen", "Relevant bij gebruik van statines"],
@@ -407,7 +407,7 @@ export const products = [
   // Vital Nutrition (Daisycon)
   {
     id: 6, naam: "Multivitamine + 7 Mineralen", merk: "Vital Nutrition", categorie: "Vitamines", netwerk: "Daisycon",
-    url: "https://vitalnutrition.nl/products/multivitamine",
+    url: "https://bdt9.net/c/?si=18988&li=1816067&wi=419831&ws=supverg&dl=collections%2Fmultivitamine",
     beschrijving: "90 capsules, onafhankelijk getest, gemaakt in Nederland",
     prijs: "€22,95", dosering: "1 capsule per dag, 90 capsules",
     voordelen: ["Complete dagelijkse vitamines in één capsule", "7 mineralen inbegrepen", "Onafhankelijk getest op zuiverheid", "Gemaakt in Nederland"],
@@ -415,7 +415,7 @@ export const products = [
   },
   {
     id: 7, naam: "Whey Proteïne", merk: "Vital Nutrition", categorie: "Proteïne", netwerk: "Daisycon",
-    url: "https://vitalnutrition.nl/collections/eiwitpoeder",
+    url: "https://bdt9.net/c/?si=18988&li=1816067&wi=419831&ws=supverg&dl=collections%2Feiwitpoeder",
     beschrijving: "82% eiwit, mix van concentraat, isolaat & hydrolisaat",
     prijs: "€39,95", dosering: "1 schep (30g) per dag",
     voordelen: ["82% eiwitgehalte (bovengemiddeld hoog)", "Drievoudige mix voor snelle + trage opname", "Snel opneembaar na training", "Meerdere smaken beschikbaar"],
@@ -423,7 +423,7 @@ export const products = [
   },
   {
     id: 8, naam: "Nootropic 7-in-1", merk: "Vital Nutrition", categorie: "Hersenen", netwerk: "Daisycon",
-    url: "https://vitalnutrition.nl/products/nootropic",
+    url: "https://bdt9.net/c/?si=18988&li=1816067&wi=419831&ws=supverg&dl=products%2Fnootropic",
     beschrijving: "Focus & concentratie met Bacopa, Rhodiola en Ginseng",
     prijs: "€34,95", dosering: "2 capsules per dag",
     voordelen: ["7 actieve ingrediënten in één formule", "Bacopa, Rhodiola én Ginseng gecombineerd", "Zonder cafeïne — geen crash", "Wetenschappelijk onderbouwde ingrediënten"],
@@ -431,7 +431,7 @@ export const products = [
   },
   {
     id: 9, naam: "Creatine", merk: "Vital Nutrition", categorie: "Sport", netwerk: "Daisycon",
-    url: "https://vitalnutrition.nl/collections/sportvoeding",
+    url: "https://bdt9.net/c/?si=18988&li=1816067&wi=419831&ws=supverg&dl=collections%2Fsportvoeding",
     beschrijving: "Ondersteunt kracht en spierherstel",
     prijs: "€19,95", dosering: "5g per dag (1 schep)",
     voordelen: ["Meest onderbouwde sportvoedingssupplement", "Verhoogt kracht en explosiviteit", "Bevordert spierherstel na training", "Betaalbaar per portie"],
@@ -441,7 +441,7 @@ export const products = [
   // Holland & Barrett BE (Awin)
   {
     id: 10, naam: "Vitamine D3", merk: "Holland & Barrett", categorie: "Vitamines", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/vitamines/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fvitamines%2F",
     beschrijving: "Ondersteunt botten, tanden en immuunsysteem",
     prijs: "€12,95", dosering: "1 tablet per dag",
     voordelen: ["Betaalbare instapoptie", "Breed verkrijgbaar in België", "Vertrouwd merk met lang trackrecord"],
@@ -449,7 +449,7 @@ export const products = [
   },
   {
     id: 11, naam: "Omega-3 Visolie", merk: "Holland & Barrett", categorie: "Omega-3", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2F",
     beschrijving: "Essentiële vetzuren voor hart en hersenen",
     prijs: "€14,95", dosering: "1–2 capsules per dag",
     voordelen: ["Betaalbare omega-3 bron", "Essentiële EPA & DHA vetzuren", "Goed verkrijgbaar in Belgische winkels"],
@@ -457,7 +457,7 @@ export const products = [
   },
   {
     id: 12, naam: "Ashwagandha", merk: "Holland & Barrett", categorie: "Stress & Slaap", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2F",
     beschrijving: "Adaptogeen kruid voor stressvermindering",
     prijs: "€16,95", dosering: "1–2 capsules per dag",
     voordelen: ["Bewezen adaptogeen voor stressvermindering", "Ondersteunt slaapkwaliteit", "Betaalbare optie voor beginners"],
@@ -465,7 +465,7 @@ export const products = [
   },
   {
     id: 13, naam: "Collageen Poeder", merk: "Holland & Barrett", categorie: "Huid & Haar", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2F",
     beschrijving: "Ondersteunt huid, haar en gewrichten",
     prijs: "€24,95", dosering: "1 schep (10g) per dag",
     voordelen: ["Hydrolysaat voor betere opname", "Ondersteunt huid, haar én gewrichten", "Makkelijk te mengen in koffie of smoothie"],
@@ -475,7 +475,7 @@ export const products = [
   // Magnesium
   {
     id: 14, naam: "Magnesium Malaat 400mg", merk: "EXVital", categorie: "Magnesium", netwerk: "Daisycon",
-    url: "https://www.exvital.de/magnesium-malat",
+    url: "https://glp8.net/c/?si=20887&li=1889501&wi=419831&ws=supverg&dl=magnesium-malat",
     beschrijving: "Hooggedoseerd magnesiummalaat voor spieren en slaap, 180 capsules",
     prijs: "€19,95", dosering: "2 capsules per dag (400mg)",
     voordelen: ["Malaatsvorm = uitstekende biologische beschikbaarheid", "Hoge dosering van 400mg per dagdosis", "180 capsules — lange voorraad", "Vrij van onnodige toevoegingen"],
@@ -483,7 +483,7 @@ export const products = [
   },
   {
     id: 15, naam: "Magnesium Citraat Poeder", merk: "Natural Calm", categorie: "Magnesium", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fmineralen%2Fmagnesium%2F",
     beschrijving: "Oplosbaar poeder voor snelle opname, rustgevend effect voor de avond",
     prijs: "€19,95", dosering: "1 theelepel in water voor het slapen",
     voordelen: ["Snel opneembaar via poedervorm", "Rustgevend effect — ideaal voor het slapengaan", "Gemakkelijk te mengen in water of thee"],
@@ -491,7 +491,7 @@ export const products = [
   },
   {
     id: 16, naam: "Magnesium Bisglycinaat 120mg", merk: "Pure Encapsulations", categorie: "Magnesium", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fmineralen%2Fmagnesium%2F",
     beschrijving: "Ultra-pure formule, beste tolerantie, geen laxerend effect, 90 capsules",
     prijs: "€34,95", dosering: "2 capsules per dag (240mg)",
     voordelen: ["Ultra-pure formule zonder vulstoffen", "Geen laxerend effect", "Beste tolerantie voor gevoelige magen", "Glycinatvorm voor diepe ontspanning"],
@@ -499,7 +499,7 @@ export const products = [
   },
   {
     id: 17, naam: "Magnesium 375mg", merk: "Holland & Barrett", categorie: "Magnesium", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/magnesium/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fmineralen%2Fmagnesium%2F",
     beschrijving: "100% dagelijkse aanbevolen hoeveelheid per tablet, 100 tabletten",
     prijs: "€11,95", dosering: "1 tablet per dag",
     voordelen: ["100% dagelijkse ADH in één tablet", "Goedkoopste optie", "100 tabletten — lange voorraad"],
@@ -509,7 +509,7 @@ export const products = [
   // Mineralen
   {
     id: 18, naam: "Zink Bisglycinaat 25mg", merk: "EXVital", categorie: "Mineralen", netwerk: "Daisycon",
-    url: "https://www.exvital.de/zink-bisglycinat",
+    url: "https://glp8.net/c/?si=20887&li=1889501&wi=419831&ws=supverg&dl=zink-bisglycinat",
     beschrijving: "Hooggedoseerd zink in chelaatvorm voor maximale opname, 365 capsules",
     prijs: "€17,95", dosering: "1 capsule per dag (25mg)",
     voordelen: ["Chelaatvorm = maximale biologische beschikbaarheid", "Hoge dosering 25mg per capsule", "365 capsules — volledig jaarvoorraad", "Ondersteunt immuunsysteem, huid en haar"],
@@ -517,7 +517,7 @@ export const products = [
   },
   {
     id: 19, naam: "Gentle Iron 25mg", merk: "Solgar", categorie: "Mineralen", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/ijzer/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fmineralen%2Fijzer%2F",
     beschrijving: "Gentle chelated ijzer, geen constipatie, geschikt voor vegetariërs, 90 capsules",
     prijs: "€15,95", dosering: "1 capsule per dag",
     voordelen: ["Geen constipatie of maagklachten", "Zachte chelated formule", "Geschikt voor vegetariërs", "Betrouwbaar merk met kwaliteitsgarantie"],
@@ -525,7 +525,7 @@ export const products = [
   },
   {
     id: 20, naam: "Calcium + Magnesium", merk: "Holland & Barrett", categorie: "Mineralen", netwerk: "Awin",
-    url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/mineralen/calcium/",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2Fmineralen%2Fcalcium%2F",
     beschrijving: "Sterke combinatie voor botten en spieren, 250mg calcium + 125mg magnesium per tablet",
     prijs: "€13,95", dosering: "2 tabletten per dag",
     voordelen: ["Handig 2-in-1 combinatieproduct", "Ondersteunt botten én spieren", "Betaalbare prijs", "Ruim verkrijgbaar in België"],
@@ -533,7 +533,7 @@ export const products = [
   },
   {
     id: 21, naam: "Selenium 200mcg", merk: "EXVital", categorie: "Mineralen", netwerk: "Daisycon",
-    url: "https://www.exvital.de/selen",
+    url: "https://glp8.net/c/?si=20887&li=1889501&wi=419831&ws=supverg&dl=selen",
     beschrijving: "Selenium als selenomethionine voor optimale opname, 365 capsules",
     prijs: "€14,95", dosering: "1 capsule per dag (200mcg)",
     voordelen: ["Selenomethioninvorm = beste biologische beschikbaarheid", "365 capsules — volledig jaarvoorraad", "Ondersteunt schildklier en immuunsysteem", "Bevorderlijk voor haar en nagels"],
