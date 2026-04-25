@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../components/SEO';
-import ProductCard from '../components/ProductCard';
-import { omega3 } from '../data/products';
+import ProductGrid from '../components/ProductGrid';
 import '../styles/Page.css';
 
 const schema = {
@@ -26,11 +25,10 @@ export default function OmegaPage() {
         <h1 className="page-title">Omega-3</h1>
         <p className="page-sub">Van visolie tot algenolie — vind de beste omega-3 voor jouw levensstijl.</p>
       </div>
-      <div className="page-grid">
-        {omega3.map(p => (
-          <ProductCard key={p.id} {...p} reviewCount={p.reviewCount} />
-        ))}
-      </div>
+      <ProductGrid
+        categorieën={['Omega-3']}
+        defaultCategorie="Alle"
+      />
     </div>
   );
 }

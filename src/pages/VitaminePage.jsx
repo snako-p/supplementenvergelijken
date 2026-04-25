@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../components/SEO';
-import ProductCard from '../components/ProductCard';
-import { vitamines } from '../data/products';
+import ProductGrid from '../components/ProductGrid';
 import '../styles/Page.css';
 
 const schema = {
@@ -26,11 +25,10 @@ export default function VitaminePage() {
         <h1 className="page-title">Vitamines</h1>
         <p className="page-sub">Vergelijk de beste vitamine-supplementen op prijs, kwaliteit en ingrediënten.</p>
       </div>
-      <div className="page-grid">
-        {vitamines.map(p => (
-          <ProductCard key={p.id} {...p} reviewCount={p.reviewCount} />
-        ))}
-      </div>
+      <ProductGrid
+        categorieën={['Vitamines']}
+        defaultCategorie="Alle"
+      />
     </div>
   );
 }

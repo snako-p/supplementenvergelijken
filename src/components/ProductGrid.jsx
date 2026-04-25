@@ -25,12 +25,20 @@ const ACCENT_COLORS = {
   Energie: 'var(--orange-pale)',
 };
 
-export default function ProductGrid({ title, subtitle }) {
-  const [activeCategory, setActiveCategory] = useState('Alle');
+export default function ProductGrid({ title, subtitle, defaultCategorie = 'Alle', categorieën }) {
+  const [activeCategory, setActiveCategory] = useState(defaultCategorie);
+
+  const visibleCategories = categorieën
+    ? ['Alle', ...categorieën]
+    : CATEGORIES;
+
+  const pool = categorieën
+    ? products.filter(p => categorieën.includes(p.categorie))
+    : products;
 
   const filtered = activeCategory === 'Alle'
-    ? products
-    : products.filter(p => p.categorie === activeCategory);
+    ? pool
+    : pool.filter(p => p.categorie === activeCategory);
 
   return (
     <section className="pg-section">
@@ -42,7 +50,7 @@ export default function ProductGrid({ title, subtitle }) {
       )}
 
       <div className="pg-filters" role="group" aria-label="Filter op categorie">
-        {CATEGORIES.map(cat => (
+        {visibleCategories.map(cat => (
           <button
             key={cat}
             className={`pg-filter-btn${activeCategory === cat ? ' active' : ''}`}
