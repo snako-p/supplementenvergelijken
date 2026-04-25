@@ -361,6 +361,27 @@ export const vitamines = [
   },
 ];
 
+export const products = [
+  // BioProphyl (Awin)
+  { id: 1, naam: "Vitamine D3 Druppels 1000 I.E.", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin", url: "https://www.bioprophyl.be/vitamin-d3-k2-vorteilspaket.html", beschrijving: "Natuurlijke vitamine D3 in olijfolie, 750 druppels per fles" },
+  { id: 2, naam: "Vitamine D3 + K2 Combinatie", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin", url: "https://www.bioprophyl.be", beschrijving: "D3 en K2 samen voor botten en immuunsysteem" },
+  { id: 3, naam: "Algenolie Vegan Omega-3", merk: "BioProphyl", categorie: "Omega-3", netwerk: "Awin", url: "https://www.bioprophyl.de/nl/algenolie-vegan-omega-3-rijk-aan-epa-en-dha-60-capsules", beschrijving: "Plantaardige omega-3 met EPA & DHA, 60 capsules" },
+  { id: 4, naam: "Krillolie Omega-3", merk: "BioProphyl", categorie: "Omega-3", netwerk: "Awin", url: "https://www.bioprophyl.de/nl/omega-3-epa-dha/", beschrijving: "Hoge biobeschikbaarheid dankzij fosfolipiden" },
+  { id: 5, naam: "Co-enzym Q10 100 Plus", merk: "BioProphyl", categorie: "Energie", netwerk: "Awin", url: "https://www.bioprophyl.de/nl/", beschrijving: "Ondersteunt energieproductie in de cellen" },
+
+  // Vital Nutrition (Daisycon)
+  { id: 6, naam: "Multivitamine + 7 Mineralen", merk: "Vital Nutrition", categorie: "Vitamines", netwerk: "Daisycon", url: "https://vitalnutrition.nl/products/multivitamine", beschrijving: "90 capsules, onafhankelijk getest, gemaakt in Nederland" },
+  { id: 7, naam: "Whey Proteïne", merk: "Vital Nutrition", categorie: "Proteïne", netwerk: "Daisycon", url: "https://vitalnutrition.nl/collections/eiwitpoeder", beschrijving: "82% eiwit, mix van concentraat, isolaat & hydrolisaat" },
+  { id: 8, naam: "Nootropic 7-in-1", merk: "Vital Nutrition", categorie: "Hersenen", netwerk: "Daisycon", url: "https://vitalnutrition.nl/products/nootropic", beschrijving: "Focus & concentratie met Bacopa, Rhodiola en Ginseng" },
+  { id: 9, naam: "Creatine", merk: "Vital Nutrition", categorie: "Sport", netwerk: "Daisycon", url: "https://vitalnutrition.nl/collections/sportvoeding", beschrijving: "Ondersteunt kracht en spierherstel" },
+
+  // Holland & Barrett BE (Awin)
+  { id: 10, naam: "Vitamine D3", merk: "Holland & Barrett", categorie: "Vitamines", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/vitamines/", beschrijving: "Ondersteunt botten, tanden en immuunsysteem" },
+  { id: 11, naam: "Omega-3 Visolie", merk: "Holland & Barrett", categorie: "Omega-3", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Essentiële vetzuren voor hart en hersenen" },
+  { id: 12, naam: "Ashwagandha", merk: "Holland & Barrett", categorie: "Stress & Slaap", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Adaptogeen kruid voor stressvermindering" },
+  { id: 13, naam: "Collageen Poeder", merk: "Holland & Barrett", categorie: "Huid & Haar", netwerk: "Awin", url: "https://www.hollandandbarrett.be/shop/vitamines-supplementen/", beschrijving: "Ondersteunt huid, haar en gewrichten" },
+];
+
 export const allComparableProducts = [
   { id: 1, emoji: '🌞', name: "Nature's Best D3 5000IU", brand: "Nature's Best", category: 'Vitamine D3', price: 18.95, dosage: '5000 IU per capsule', servings: 90, rating: 4.8, reviews: 312, ingredients: ['Cholecalciferol (D3)', 'Olijfolie', 'Gelatine capsule'], pros: ['Hoge biologische beschikbaarheid', 'Glutenvrij & vegan', 'Gecertificeerde ingrediënten'], cons: ['Hoge dosis, niet voor iedereen'], score: { kwaliteit: 92, prijskwaliteit: 88, ingredienten: 95, veiligheid: 90 }, accentColor: 'var(--orange-pale)' },
   { id: 2, emoji: '🪨', name: 'Vitakruid Magnesium Malaat', brand: 'Vitakruid', category: 'Magnesium', price: 21.50, dosage: '200 mg per tablet', servings: 120, rating: 4.7, reviews: 198, ingredients: ['Magnesiummalaat', 'Rijstmeel', 'HPMC capsule'], pros: ['Snelle opname', 'Ondersteunt spieren & slaap', 'Made in Belgium'], cons: ['Iets duurder per portie'], score: { kwaliteit: 89, prijskwaliteit: 84, ingredienten: 91, veiligheid: 93 }, accentColor: '#E8F5EC' },

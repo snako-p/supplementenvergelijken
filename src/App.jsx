@@ -28,6 +28,7 @@ import VitamineB12VormenPage from './pages/ingredients/VitamineB12VormenPage';
 import WheyVormenPage from './pages/ingredients/WheyVormenPage';
 import SupplementQuizPage from './pages/SupplementQuizPage';
 import FilterTablePage from './pages/FilterTablePage';
+import ProductsPage from './pages/ProductsPage';
 import './styles/variables.css';
 
 export default function App() {
@@ -60,6 +61,7 @@ export default function App() {
         <Route path="/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat" element={<WheyVormenPage />} />
         <Route path="/supplement-quiz" element={<SupplementQuizPage />} />
         <Route path="/vergelijkingstabel" element={<FilterTablePage />} />
+        <Route path="/producten" element={<ProductsPage />} />
       </Routes>
       <Footer />
       <CookieBanner />
