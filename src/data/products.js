@@ -373,13 +373,13 @@ export const products = [
     nadelen: ["Hogere instapprijs als bundel", "Vereist nauwkeurig doseren met pipet"],
   },
   {
-    id: 2, naam: "Vitamine D3 + K2 Combinatie", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin",
+    id: 2, naam: "Vitamine D3 K2 Tabletten", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin",
     url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.be%2Fvitamin-d3-k2.html",
     afbeelding: "/images/products/bioprophyl-d3-k2.jpg",
-    beschrijving: "D3 en K2 samen voor botten en immuunsysteem",
-    prijs: "€24,95", dosering: "1 capsule per dag",
-    voordelen: ["D3 en K2 synergetisch gecombineerd", "Ondersteunt botten én immuunsysteem", "Handige capsule, geen doseren nodig"],
-    nadelen: ["Vaste dosis — minder flexibel dan druppels", "Iets hogere prijs dan losse D3"],
+    beschrijving: "120 tabletten (4 maanden) — 1000 IE D3 + 75mcg K2 (all-trans MK-7) + 12mg vitamine C per tablet",
+    prijs: "€34,62", dosering: "1 tablet per dag, 120 tabletten (4 maanden)",
+    voordelen: ["D3 + K2 + vitamine C in één tablet", "Bioactieve all-trans MK-7 (zonder soja)", "120 tabletten = 4 maanden voorraad", "Glutenvrij, lactosevrij, allergeenvrij, vegetarisch"],
+    nadelen: ["Vaste dosering — niet aanpasbaar", "Maltodextrine als vulmiddel"],
   },
   {
     id: 3, naam: "Algenolie Vegan Omega-3", merk: "BioProphyl", categorie: "Omega-3", netwerk: "Awin",
