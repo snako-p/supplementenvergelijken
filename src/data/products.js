@@ -476,13 +476,13 @@ export const products = [
     nadelen: ["Effect verschilt per persoon, meestal na 4–8 weken", "Niet aanbevolen tijdens zwangerschap of borstvoeding"],
   },
   {
-    id: 13, naam: "Collageen Poeder 150g", merk: "Holland & Barrett", categorie: "Huid & Haar", netwerk: "Awin",
-    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.hollandandbarrett.be%2Fshop%2Fvitamines-supplementen%2F",
+    id: 13, naam: "Collageen Poeder 500g", merk: "EXVital", categorie: "Huid & Haar", netwerk: "Daisycon",
+    url: "https://glp8.net/c/?si=20887&li=1889501&wi=419831&ws=&dl=nahrungsergaenzungsmittel%2Fsport%2F332%2Fcollagen-pulver-500-gramm-bioaktives-kollagen-von-exvital",
     afbeelding: null,
-    beschrijving: "150g gehydrolyseerd collageenpoeder — ca. 15 porties van 10g. Ondersteunt huid, haar en gewrichten.",
-    prijs: "€29,99", dosering: "1 schep (10g) per dag, 150g = ca. 15 porties",
-    voordelen: ["Gehydrolyseerd collageen voor optimale opname", "Smaakloos — makkelijk te mengen in koffie of smoothie", "Ondersteunt huid, haar én gewrichten", "Breed verkrijgbaar in Belgische H&B-winkels"],
-    nadelen: ["Dierlijk product — niet geschikt voor veganisten", "150g is snel op bij dagelijks gebruik (15 dagen)"],
+    beschrijving: "500g bioactief collageenhydrolysaat — type 1, 2 & 3, 93g eiwit per 100g, 18 aminozuren. Smaakloos, lab-getest, Made in Germany.",
+    prijs: "€23,95", dosering: "10–30g per dag in koffie, smoothie of water",
+    voordelen: ["500g = 17–50 porties — uitstekende prijs/portie", "Type 1, 2 & 3 collageen in één product", "93g eiwit per 100g — zeer hoge concentratie", "Smaakloos & snel oplosbaar, zonder toevoegingen, lab-getest"],
+    nadelen: ["Dierlijk product (rund) — niet voor veganisten", "Grotere hoeveelheid (10–30g/dag) vereist een schep of weegschaal"],
   },
 
   // Magnesium
