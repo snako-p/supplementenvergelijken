@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from '../components/SEO';
-import ProductCard from '../components/ProductCard';
-import { magnesium } from '../data/products';
+import ProductGrid from '../components/ProductGrid';
 import '../styles/Page.css';
 
 const schema = {
@@ -24,13 +23,9 @@ export default function MagnesiumPage() {
       <div className="page-header">
         <div className="section-label">Categorie</div>
         <h1 className="page-title">Magnesium</h1>
-        <p className="page-sub">Welke magnesiumvorm past het best bij jouw doel? Wij vergelijken het voor jou.</p>
+        <p className="page-sub">Magnesium producten worden binnenkort toegevoegd. Bekijk ondertussen ons volledige aanbod.</p>
       </div>
-      <div className="page-grid">
-        {magnesium.map(p => (
-          <ProductCard key={p.id} {...p} reviewCount={p.reviewCount} />
-        ))}
-      </div>
+      <ProductGrid defaultCategorie="Alle" />
     </div>
   );
 }
