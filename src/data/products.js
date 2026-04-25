@@ -474,7 +474,7 @@ export const products = [
 
   // Magnesium
   {
-    id: 14, naam: "Magnesium Malaat 400mg", merk: "EXVital", categorie: "Magnesium", netwerk: "Awin",
+    id: 14, naam: "Magnesium Malaat 400mg", merk: "EXVital", categorie: "Magnesium", netwerk: "Daisycon",
     url: "https://www.exvital.de/magnesium-malat",
     beschrijving: "Hooggedoseerd magnesiummalaat voor spieren en slaap, 180 capsules",
     prijs: "€19,95", dosering: "2 capsules per dag (400mg)",
@@ -508,7 +508,7 @@ export const products = [
 
   // Mineralen
   {
-    id: 18, naam: "Zink Bisglycinaat 25mg", merk: "EXVital", categorie: "Mineralen", netwerk: "Awin",
+    id: 18, naam: "Zink Bisglycinaat 25mg", merk: "EXVital", categorie: "Mineralen", netwerk: "Daisycon",
     url: "https://www.exvital.de/zink-bisglycinat",
     beschrijving: "Hooggedoseerd zink in chelaatvorm voor maximale opname, 365 capsules",
     prijs: "€17,95", dosering: "1 capsule per dag (25mg)",
@@ -532,7 +532,7 @@ export const products = [
     nadelen: ["Calcium en magnesium concurreren bij opname", "Neem op verschillende tijdstippen in voor optimaal effect"],
   },
   {
-    id: 21, naam: "Selenium 200mcg", merk: "EXVital", categorie: "Mineralen", netwerk: "Awin",
+    id: 21, naam: "Selenium 200mcg", merk: "EXVital", categorie: "Mineralen", netwerk: "Daisycon",
     url: "https://www.exvital.de/selen",
     beschrijving: "Selenium als selenomethionine voor optimale opname, 365 capsules",
     prijs: "€14,95", dosering: "1 capsule per dag (200mcg)",
