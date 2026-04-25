@@ -474,11 +474,11 @@ export const products = [
 
   // Magnesium
   {
-    id: 14, naam: "Magnesium Malaat 200mg", merk: "Vitakruid", categorie: "Magnesium", netwerk: "Daisycon",
-    url: "https://www.vitakruid.nl/magnesium-malaat",
-    beschrijving: "Snelle opname, ondersteunt spieren en slaap. Made in Belgium, 120 tabletten",
-    prijs: "€21,50", dosering: "2 tabletten per dag (400mg)",
-    voordelen: ["Malaatsvorm = snelle opname", "Ondersteunt spieren én slaapkwaliteit", "Made in Nederland/België", "120 tabletten — goede prijs/portie"],
+    id: 14, naam: "Magnesium Malaat 400mg", merk: "EXVital", categorie: "Magnesium", netwerk: "Awin",
+    url: "https://www.exvital.de/magnesium-malat",
+    beschrijving: "Hooggedoseerd magnesiummalaat voor spieren en slaap, 180 capsules",
+    prijs: "€19,95", dosering: "2 capsules per dag (400mg)",
+    voordelen: ["Malaatsvorm = uitstekende biologische beschikbaarheid", "Hoge dosering van 400mg per dagdosis", "180 capsules — lange voorraad", "Vrij van onnodige toevoegingen"],
     nadelen: ["Iets duurder dan magnesiumoxide", "Niet in poedervorm beschikbaar"],
   },
   {
@@ -508,11 +508,11 @@ export const products = [
 
   // Mineralen
   {
-    id: 18, naam: "Zink Bisglycinaat 15mg", merk: "Vitakruid", categorie: "Mineralen", netwerk: "Daisycon",
-    url: "https://www.vitakruid.nl/zink",
-    beschrijving: "Hoogwaardige chelaatvorm voor maximale opname, ondersteunt immuunsysteem en huid",
-    prijs: "€14,95", dosering: "1 capsule per dag (15mg)",
-    voordelen: ["Chelaatvorm = maximale biologische beschikbaarheid", "Ondersteunt immuunsysteem, huid en haar", "Made in Nederland"],
+    id: 18, naam: "Zink Bisglycinaat 25mg", merk: "EXVital", categorie: "Mineralen", netwerk: "Awin",
+    url: "https://www.exvital.de/zink-bisglycinat",
+    beschrijving: "Hooggedoseerd zink in chelaatvorm voor maximale opname, 365 capsules",
+    prijs: "€17,95", dosering: "1 capsule per dag (25mg)",
+    voordelen: ["Chelaatvorm = maximale biologische beschikbaarheid", "Hoge dosering 25mg per capsule", "365 capsules — volledig jaarvoorraad", "Ondersteunt immuunsysteem, huid en haar"],
     nadelen: ["Niet gelijktijdig innemen met ijzer", "Hogere prijs dan zinkoxide"],
   },
   {
@@ -532,11 +532,11 @@ export const products = [
     nadelen: ["Calcium en magnesium concurreren bij opname", "Neem op verschillende tijdstippen in voor optimaal effect"],
   },
   {
-    id: 21, naam: "Selenium 200mcg", merk: "Vitakruid", categorie: "Mineralen", netwerk: "Daisycon",
-    url: "https://www.vitakruid.nl/selenium",
-    beschrijving: "Antioxidant mineraal voor schildklier, immuunsysteem en haargezondheid, 60 capsules",
-    prijs: "€12,95", dosering: "1 capsule per dag (200mcg)",
-    voordelen: ["Krachtig antioxidant mineraal", "Ondersteunt schildklier en immuunsysteem", "Bevorderlijk voor haar en nagels"],
+    id: 21, naam: "Selenium 200mcg", merk: "EXVital", categorie: "Mineralen", netwerk: "Awin",
+    url: "https://www.exvital.de/selen",
+    beschrijving: "Selenium als selenomethionine voor optimale opname, 365 capsules",
+    prijs: "€14,95", dosering: "1 capsule per dag (200mcg)",
+    voordelen: ["Selenomethioninvorm = beste biologische beschikbaarheid", "365 capsules — volledig jaarvoorraad", "Ondersteunt schildklier en immuunsysteem", "Bevorderlijk voor haar en nagels"],
     nadelen: ["Niet overdoseren (max. 400mcg/dag totaal)", "Effect pas zichtbaar na langdurig gebruik"],
   },
 ];
