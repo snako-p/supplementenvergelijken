@@ -374,7 +374,7 @@ export const products = [
   },
   {
     id: 2, naam: "Vitamine D3 + K2 Combinatie", merk: "BioProphyl", categorie: "Vitamines", netwerk: "Awin",
-    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.be",
+    url: "https://www.awin1.com/cread.php?awinmid=22561&awinaffid=2844128&ued=https%3A%2F%2Fwww.bioprophyl.be%2Fvitamin-d3-k2.html",
     afbeelding: "/images/products/bioprophyl-d3-k2.jpg",
     beschrijving: "D3 en K2 samen voor botten en immuunsysteem",
     prijs: "€24,95", dosering: "1 capsule per dag",
