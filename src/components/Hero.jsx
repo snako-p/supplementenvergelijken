@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Hero.css';
 
 export default function Hero() {
+  const navigate = useNavigate();
   return (
     <div className="hero-wrapper">
       <section className="hero">
@@ -13,8 +15,8 @@ export default function Hero() {
             ingrediënten — zodat jij de slimste keuze maakt.
           </p>
           <div className="hero-actions">
-            <button className="btn-primary">Start vergelijken</button>
-            <button className="btn-secondary">Bekijk top 10</button>
+            <button className="btn-primary" onClick={() => navigate('/vergelijken')}>Start vergelijken</button>
+            <button className="btn-secondary" onClick={() => navigate('/producten')}>Bekijk alle producten</button>
           </div>
           <div className="hero-stats">
             <div><div className="stat-num">400+</div><div className="stat-label">Producten vergeleken</div></div>
@@ -24,24 +26,27 @@ export default function Hero() {
         </div>
         <div className="hero-visual">
           <div className="hero-card-main">
-            <div className="product-img">🌞</div>
-            <div className="product-name">Vitamine D3 5000IU</div>
-            <div className="product-brand">Nature's Best · 90 capsules</div>
-            <div className="stars">★★★★★ <span>4.8 (312 reviews)</span></div>
+            <div className="product-img">💧</div>
+            <div className="product-name">Vitamine D3 Druppels 1000 I.E.</div>
+            <div className="product-brand">BioProphyl · 750 druppels per fles</div>
+            <div className="stars">★★★★★ <span>Topkwaliteit · Awin</span></div>
             <div className="price-row">
               <div>
-                <div className="price">€18,95</div>
-                <div className="price-old">€24,99</div>
+                <div className="price">€19,95</div>
               </div>
-              <div className="score-badge">Beste keuze</div>
+              <div className="score-badge">Aanbevolen</div>
             </div>
           </div>
           <div className="hero-card-small">
-            <div className="small-label">Onze score</div>
-            {[['Kwaliteit','92%',92],['Prijs/kwaliteit','88%',88],['Ingrediënten','95%',95]].map(([label,val,w])=>(
-              <div key={label}>
-                <div className="mini-row"><span>{label}</span><span>{val}</span></div>
-                <div className="mini-bar"><div className="mini-fill" style={{width:`${w}%`}}></div></div>
+            <div className="small-label">Voordelen</div>
+            {[
+              'Vloeibaar & makkelijk te doseren',
+              'In olijfolie voor betere opname',
+              'Geschikt voor het hele gezin',
+            ].map(v => (
+              <div key={v} style={{ display: 'flex', alignItems: 'flex-start', gap: 7, marginBottom: 8, fontSize: 12, color: 'var(--text-muted)' }}>
+                <span style={{ color: 'var(--green)', fontWeight: 700, flexShrink: 0 }}>✓</span>
+                {v}
               </div>
             ))}
           </div>
