@@ -2,9 +2,6 @@ User-agent: *
 Allow: /
 
 Disallow: /api/
-Disallow: /build/
-Disallow: /static/js/
-Disallow: /static/css/
 
 # Block AI training crawlers
 User-agent: GPTBot

@@ -1,88 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Hoofdpagina -->
   <url>
     <loc>https://www.supplementenvergelijken.be/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Categoriepagina's -->
+  <url>
+    <loc>https://www.supplementenvergelijken.be/categorieen</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/vitamines</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/magnesium</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/omega-3</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/mineralen</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/proteine</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.supplementenvergelijken.be/vergelijken</loc>
-    <lastmod>2026-04-10</lastmod>
+    <loc>https://www.supplementenvergelijken.be/energie</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/hersenen</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/stress-slaap</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/huid-haar</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tools -->
+  <url>
+    <loc>https://www.supplementenvergelijken.be/vergelijken</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/vergelijkingstabel</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/producten</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/supplement-quiz</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Artikelen -->
+  <url>
+    <loc>https://www.supplementenvergelijken.be/artikelen/top-5-magnesium-supplementen-belgie</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/artikelen/whey-vs-plantaardig-eiwit</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/artikelen/beste-vitamine-d-supplement-vergeleken</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/beste-vitamine-d-supplement-belgie</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
+  <!-- Koopgidsen -->
+  <url>
+    <loc>https://www.supplementenvergelijken.be/koopgidsen/creatine-koopgids</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/koopgidsen/hoe-kies-je-het-juiste-supplement</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/koopgidsen/supplementen-voor-beginners</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Ingrediënten -->
+  <url>
+    <loc>https://www.supplementenvergelijken.be/ingredienten/magnesiumcitraat-vs-magnesiumoxide</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/ingredienten/vitamine-b12-vormen</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.supplementenvergelijken.be/ingredienten/whey-concentraat-vs-isolaat-vs-hydrolisaat</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Over / Info -->
   <url>
     <loc>https://www.supplementenvergelijken.be/over-ons</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.supplementenvergelijken.be/adverteren</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/contact</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://www.supplementenvergelijken.be/adverteren</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.supplementenvergelijken.be/privacybeleid</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/algemene-voorwaarden</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.supplementenvergelijken.be/affiliate-disclosure</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>

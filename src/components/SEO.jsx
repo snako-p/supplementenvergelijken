@@ -23,7 +23,7 @@ export default function SEO({
     <Helmet>
       <title>{fullTitle}</title>
       {description && <meta name="description" content={description} />}
-      {noindex && <meta name="robots" content="noindex, nofollow" />}
+      <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'} />
       {fullCanonical && <link rel="canonical" href={fullCanonical} />}
 
       {/* Open Graph */}
